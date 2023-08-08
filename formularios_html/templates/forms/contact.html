@@ -1,0 +1,8 @@
+<form action="{% url 'goal' %}" method="GET"><!--Action es lo que hace, method se pone get o post-->
+    <!--la información con get se verá en el la url de la pagina por eso no se usa para mandar datos-->
+    <h3>Formulario</h3><!--GET: Obtener información, POST: Enviar información-->
+    <label>Nombre: </label>
+    <input type="text" name="name" placeholder="Escribe tu nombre...">
+    <input type="text" name="message" placeholder="comentario">
+    <input type="submit" value="Enviar">
+</form>
